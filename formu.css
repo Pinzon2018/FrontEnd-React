@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d397ad; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+form {
+    background-color: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px 35px;
+    width: 100%;
+    max-width: 500px;
+    border-top: 8px solid #f7c5d4; 
+}
+
+
+h2 {
+    text-align: center;
+    color: #b391d4; 
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="file"]:focus {
+    border-color: #b3e5cc; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(179, 229, 204, 0.5);
+}
+
+
+button {
+    background-color: #f7c5d4; 
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f4a3b4; 
+}
+
+button:active {
+    background-color: #e5899b; 
+}
+
+
+input[type="file"] {
+    background-color: #d6eaf8; 
+}
+
+input[type="date"] {
+    background-color: #f9f1d8; 
+}
+
+form > * {
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+    button {
+        font-size: 16px;
+    }
+}
